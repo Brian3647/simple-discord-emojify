@@ -1,0 +1,46 @@
+{
+	"name": "simple-discord-emojify",
+	"version": "0.0.2",
+	"description": "An open-source, 0 dependency, typescript compatible library that converts text into discord emojis without need of async.",
+	"scripts": {
+		"build": "tsc && ts-node scripts/pkg.ts",
+		"lint": "eslint .",
+		"fmt": "prettier --write .",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Brian3647/simple-discord-emojify"
+	},
+	"keywords": [
+		"discord",
+		"typescript",
+		"emojify",
+		"emoji",
+		"discordjs"
+	],
+	"author": "TODO",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Brian3647/simple-discord-emojify/issues"
+	},
+	"homepage": "https://github.com/Brian3647/simple-discord-emojify#readme",
+	"devDependencies": {
+		"@types/jest": "^27.0.2",
+		"@types/node": "^16.3.1",
+		"@typescript-eslint/eslint-plugin": "5.0.0",
+		"@typescript-eslint/parser": "5.0.0",
+		"eslint": "8.0.0",
+		"jest": "^27.2.5",
+		"prettier": "^2.3.2",
+		"ts-jest": "^27.0.5",
+		"ts-node": "^10.1.0",
+		"typescript": "^4.4.3",
+		"yarn": "^1.22.10"
+	},
+	"dependencies": {},
+	"publishConfig": {
+		"access": "public",
+		"directory": "dist"
+	}
+}
