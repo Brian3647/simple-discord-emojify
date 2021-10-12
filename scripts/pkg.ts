@@ -19,6 +19,7 @@ const pkg = JSON.parse(read('package.json'));
 delete pkg.scripts;
 delete pkg.devDependencies;
 pkg.publishConfig.directory = '.';
+pkg.main = 'index.js';
 
 write(JSON.stringify(pkg, null, 2), 'dist', 'package.json');
 

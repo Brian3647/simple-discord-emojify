@@ -1,4 +1,7 @@
 #!/bin/bash
 
-cd dist
+yarn fmt && \
+yarn lint && \
+yarn build && \
+cd dist && \
 yarn publish

@@ -5,7 +5,7 @@ An open-source, 0 dependency, typescript compatible library that converts text i
 Example (working test):
 
 ```ts
-import emojify from '../lib/index';
+import emojify from 'simple-discprd-emojify';
 
 const abecedary = 'abcdefghijklmnopqrstuvwxyz';
 
