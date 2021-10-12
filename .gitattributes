@@ -1,1 +1,2 @@
-jest.config.js linguistic-language=TypeScript
+jest.config.js  linguistic-language=TypeScript
+*.sh  linguistic-detectable=TypeScript
